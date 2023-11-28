@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    width: auto;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+ .header p{
+    color: darkgray;
+    font-size: 16px;
+ }
+ .header strong{
+    color: grey
+ }
+ .header img{
+    height: 32px;
+ }
