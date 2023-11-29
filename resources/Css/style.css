@@ -1,6 +1,7 @@
 body{
     background-color: white;
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 /* Unstyles Button */
 button{
@@ -76,4 +77,43 @@ button{
    color: white;
    width: 100%;
    padding: 16px 0;
+ }
+
+ .Section2{
+  display: flex;
+  width: 100%;
+  padding: 60px 48px;
+ 
+ }
+
+ .Section2 img{
+  width:100%;
+  
+  
+ }
+
+ #left{
+  width: auto;
+  color: dimgray;
+  width: 60%;
+ }
+
+ #left h1{
+  font-size: 48px;
+  font-weight: bolder;
+ }
+
+ #left p{
+  font-size: 24px;
+ }
+
+ #right{
+  width: 40%;
+ }
+
+ .content img{
+  width: 35%;
+  height: auto;
+  padding: 0 16px;
+  margin-bottom: 32px;
  }
