@@ -105,15 +105,40 @@ button{
 
  #left p{
   font-size: 24px;
+  margin-bottom: 64px;
  }
 
  #right{
   width: 40%;
  }
+ .content{
+  display: flex;
+  padding: 0 32px;
+  margin-bottom: 32px;
+ 
+ }
+.text{
+  width: 65%;
+  padding: 0 32px;
+ }
 
  .content img{
   width: 35%;
   height: auto;
-  padding: 0 16px;
-  margin-bottom: 32px;
+ 
  }
+
+ .content h3{
+  font-size: 36px;
+  color: dimgray;
+ }
+ .content p{
+  font-size: 24px;
+  color: dimgray;
+
+ }
+ .content a{
+  font-size: 24px;
+  color:cornflowerblue;
+ }
+ 
