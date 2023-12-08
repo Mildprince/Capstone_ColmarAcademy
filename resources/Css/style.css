@@ -20,7 +20,7 @@ button{
 }
 
  .header p{
-    color: lightgrey;
+    color: grey;
     font-size: 16px;
  }
 
@@ -92,23 +92,23 @@ button{
   
  }
 
- #left{
+ .left{
   width: auto;
   color: dimgray;
   width: 60%;
  }
 
- #left h1{
+ .left h1{
   font-size: 48px;
   font-weight: bolder;
  }
 
- #left p{
+ .left p{
   font-size: 24px;
   margin-bottom: 64px;
  }
 
- #right{
+ .right{
   width: 40%;
  }
  .content{
@@ -146,12 +146,14 @@ button{
   background-color: lightgray;
   display: block;
   text-align: center;
+  padding-bottom: 64px;
  }
 
  .Section3 h1{
   padding: 32px;
   font-size: 48px;
   width: 100%;
+  color: dimgray;
  }
 
  .grid-container{
@@ -189,3 +191,40 @@ button{
   font-size: 24px;
   color: grey;
  }
+
+ .Section4{
+  display: flex;
+  width: 100%;
+  padding: 60px 48px;
+ 
+ }
+ .Section4H{
+  margin-top: 60px;
+  font-size: 48px;
+  width: 100%;
+  color: dimgray;
+  text-align: center;
+ }
+
+
+ .Section4 video{
+  width:100%;
+  
+  
+ }
+ footer{
+  border-top: lightgrey 2px solid;
+  display: flex;
+  justify-content: space-between;
+  
+ }
+
+ footer div{
+  color: dimgray;
+  display: inline-block;
+  margin:16px 24px 36px 24px;
+ }
+
+.Fcontent{
+  margin: 8px;
+}
